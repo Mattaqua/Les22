@@ -106,7 +106,7 @@ form{
     padding: 8px;
     width: fit-content;
     margin: 15px;
-    display:flex; 
+    display:block; 
     flex-direction:column;
     justify-content:center;
     min-height:10vh;
