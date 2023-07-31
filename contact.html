@@ -27,10 +27,11 @@ crossorigin="anonymous">
 <form
 action="https://formspree.io/f/mzblddqo"
 method="POST">
-<input id="voornaam" type="text" placeholder="Uw voornaam" />
-<input id="achternaam" type="text" placeholder="Uw achternaam" />
-<input id="email" type="email" placeholder="Uw e-mailadres" />
-<textarea id="bericht" type="text" placeholder="Uw boodschap" ></textarea>
+<label for="voornaam"></label>
+<input id="voornaam" type="text" placeholder="Uw voornaam" name="voornaam"/>
+<input id="achternaam" type="text" placeholder="Uw achternaam" name="achternaam"/>
+<input id="email" type="email" placeholder="Uw e-mailadres" name="email" />
+<textarea id="bericht" type="text" placeholder="Uw boodschap" name="bericht"></textarea>
 <button id="button">Verzend</button>
 </form>
 </div>
